@@ -331,7 +331,7 @@ dependencies = [
 ]
 
 [[package]]
-name = "ultimate_cowardice"
+name = "ultimate-cowardice"
 version = "0.1.0"
 dependencies = [
  "clap",

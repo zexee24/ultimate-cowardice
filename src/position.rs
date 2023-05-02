@@ -1,9 +1,8 @@
-
 #[derive(Debug)]
-pub enum Position{
+pub enum Position {
     Top,
     Jungle,
     Mid,
     Bottom,
-    Support
+    Support,
 }

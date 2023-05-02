@@ -4,15 +4,15 @@ use clap::Parser;
 
 #[derive(Parser, Debug)]
 #[command(about, version)]
-pub struct Args{
+pub struct Args {
     /// List of players names
     #[arg(short, long, value_delimiter = ',')]
     pub players: Option<Vec<String>>,
 
     /// Location of the players folder
-    #[arg(short,long, default_value = "players/")]
+    #[arg(short, long, default_value = "players/")]
     pub folder: PathBuf,
 
-    #[arg(short, long, value_delimiter=',')]
-    pub create_player: Option<Vec<String>>
+    #[arg(short, long, value_delimiter = ',')]
+    pub create_player: Option<Vec<String>>,
 }
