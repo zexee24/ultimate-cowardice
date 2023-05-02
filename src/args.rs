@@ -10,7 +10,11 @@ pub struct Args {
     pub players: Option<Vec<String>>,
 
     /// Location of the players folder
-    #[arg(short, long, default_value = "players/")]
+    #[arg(
+        short,
+        long,
+        default_value = "League of Legends/ultimate-cowrdice/players"
+    )]
     pub folder: PathBuf,
 
     #[arg(short, long, value_delimiter = ',')]
