@@ -13,7 +13,7 @@ pub struct Args {
     #[arg(
         short,
         long,
-        default_value = "League of Legends/ultimate-cowrdice/players"
+        default_value = "/players"
     )]
     pub folder: PathBuf,
 
